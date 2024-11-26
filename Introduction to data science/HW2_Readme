@@ -1,0 +1,29 @@
+# Homework Assignment 2 - DATA 601 (Fall 2024)
+
+This repository contains solutions to Homework Assignment 2 for the DATA 601 course. The tasks focus on recursion, polynomial evaluation, and solving quadratic equations using Python.
+
+## Tasks Overview
+1. Recursive Dot Product: A function to calculate the dot product of two vectors recursively.
+2. Polynomial Class: A class to evaluate polynomials from a list of monomials.
+3. Quadratic Equation Solver: A class that extends `Polynomial` to solve quadratic equations and find roots.
+
+## Code Details
+### Task 1: Recursive Dot Product
+A recursive function calculates the dot product of two vectors without using loops.
+
+### Task 2: Polynomial Class
+The `Polynomial` class evaluates multi-variable polynomials. It takes monomials in the format `[coefficient, variables, degrees]`.
+
+### Task 3: Quadratic Equation Solver
+The `Quadratic_Eq` class inherits from `Polynomial` and solves single-variable quadratic equations using the quadratic formula.
+
+## How to Run
+1. Clone the code file repository.
+2. Run the Python script or Jupyter Notebook in your environment.
+3. Review the outputs for each task.
+
+## Notes
+- Handles both real and complex roots for quadratic equations.
+- This is an assignment given by my professor as part of the semester.
+
+
